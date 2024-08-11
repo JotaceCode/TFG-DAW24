@@ -1,0 +1,88 @@
+<div
+  class="full-login-container sm:wfull overflow-hidden bg-gradient-to-r from-green-300 via-blue-200 to-sky-950"
+>
+  <!-- Agregamos la clase overflow-hidden -->
+  <div
+    class="full-height-image-container overflow-hidden sm:h-full sm:w-full max-h-screen"
+  >
+    <!-- Agregamos la clase max-h-screen -->
+    <img src="../../../../assets/source/hotel.jpg" class="full-height-image" />
+  </div>
+  <div class="login flex flex-col gap-3">
+    <div class="bg-blue-500 max-w-48 w-auto p-4 rounded-md">
+      <img src="../../../../assets/source/logo-hotel.svg" width="100%" />
+    </div>
+
+    <h3>HOTELS, SUITES & RESORTS</h3>
+
+    <!-- FORM -->
+    <form [formGroup]="loginForm" (ngSubmit)="login(loginForm)">
+      <div class="flex flex-col gap-1 w-full">
+        <!-- Email -->
+        <mat-form-field class="w-full">
+          <mat-label>Email</mat-label>
+          <input
+            formControlName="email"
+            matInput
+            type="email"
+            required
+            email
+            name="email"
+            class="px-4 py-3 bg-red-700"
+          />
+          <mat-error
+            *ngIf="
+              this.loginForm.get('email')?.hasError('required') &&
+              this.loginForm.get('email')?.touched
+            "
+            >Email requerido</mat-error
+          >
+          <mat-error
+            *ngIf="
+              this.loginForm.get('email')?.hasError('email') &&
+              this.loginForm.get('email')?.touched
+            "
+            >No es un email válido</mat-error
+          >
+        </mat-form-field>
+
+        <!-- Password -->
+        <mat-form-field>
+          <mat-label>Contraseña</mat-label>
+          <input
+            formControlName="Password"
+            matInput
+            type="password"
+            required
+            name="Password"
+          />
+          <mat-error>Contraseña requerida</mat-error>
+        </mat-form-field>
+
+        <!-- Login Button -->
+        <button
+          type="submit"
+          mat-raised-button
+          class="w-full mx-auto login-button"
+          title="Iniciar sesion"
+          [disabled]="loginForm.invalid"
+        >
+          Iniciar sesión
+        </button>
+        <mat-error *ngIf="!loginstatus"
+          >Email o Contraseña incorrectos</mat-error
+        >
+      </div>
+    </form>
+
+    <div class="flex items-center mt-5 opacity-40 opacity-100">
+      <p>POWERED BY:</p>
+      &nbsp;
+      <img
+        src="../../../../assets/source/logo-color.png"
+        alt="logo de BROOM"
+        class="h-10 relative bottom-2"
+      />
+    </div>
+  </div>
+</div>

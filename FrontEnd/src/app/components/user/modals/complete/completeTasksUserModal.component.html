@@ -1,0 +1,21 @@
+<div class="p-3 bg-[#aec3b0] text-center">
+  <h2 mat-dialog-title>Confirmar elección</h2>
+  <div mat-dialog-content>
+    ¿Está seguro de que desea enviar todas sus tareas? Esta acción no puede
+    deshacerse.
+  </div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button (click)="onCancelClick()">
+      <mat-icon>cancel</mat-icon>Cancelar
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      (click)="onConfirmClick()"
+      cdkFocusInitial
+    >
+      <mat-icon class="icon-list-position">done_all</mat-icon>
+      Enviar tareas
+    </button>
+  </div>
+</div>

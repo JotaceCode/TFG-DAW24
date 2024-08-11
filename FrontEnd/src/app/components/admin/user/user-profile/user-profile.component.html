@@ -1,0 +1,70 @@
+<div
+  class="w-full mx-auto rounded shadow-lg color text-white max-sm:w-full max-sm:px-3 p-10 md: w1/10"
+>
+  <!-- Encabezado -->
+  <div class="mx-auto text-center mt-5">
+    <img
+      *ngIf="userData.urlImage"
+      [src]="getPhoto()"
+      class="imagen mx-auto mb-3"
+    />
+    <img
+      *ngIf="userData.roleAdmin && !userData.urlImage"
+      src="assets/images/profile/admin.png"
+      class="imagen mx-auto mb-3"
+    />
+    <img
+      *ngIf="!userData.roleAdmin && !userData.urlImage"
+      src="assets/images/profile/user.png"
+      class="imagen mx-auto mb-3"
+    />
+
+    <h1>
+      <strong> {{ userData.name }} {{ userData.surname }}</strong>
+    </h1>
+    <h3 *ngIf="userData.roleAdmin" class="text-gray-300">
+      Staff de limpieza - Administrador
+    </h3>
+    <h3 *ngIf="!userData.roleAdmin" class="text-gray-300">
+      Limpiador - Empleado
+    </h3>
+    <div class="flex justify-center mx-auto gap-4">
+      <a href="tel:{{ userData.phoneNumber }}" class="rounded-full rounded-full-green boton-nuevo p-2 flex items-center content-center">
+        <mat-icon>phone</mat-icon> {{ userData.phoneNumber }}
+      </a>
+      <a href="mailto:{{ userData.email }}" class="rounded-full rounded-full-purple boton-mover bg-indigo-600 p-2 flex items-center content-center">
+        <mat-icon>email</mat-icon> {{ userData.email }}
+      </a>
+    </div>
+  </div>
+</div>
+<div
+  class="flex flex-col md:grid md:grid-cols-2 w-full mx-auto rounded overflow-hidden shadow-lg bg-white mt-1 py-3 text-wrap max-sm:w-full max-sm:px-3 md:px-10"
+>
+  <!-- Primer grupo de datos -->
+  <div class="space-y-2 ml-10 mt-5">
+    <div class="flex items-center">
+      <mat-icon class="profile-icons">fingerprint</mat-icon>
+      <p><strong class="ml-2">DNI:</strong> {{ userData.dni }}</p>
+    </div>
+    <div class="flex items-center">
+      <mat-icon class="profile-icons">date_range</mat-icon>
+      <p>
+        <strong class="ml-2">Fecha de nacimiento:</strong>
+        {{ userData.birthDate | date : "dd/MM/YYYY" }}
+      </p>
+    </div>
+  </div>
+
+  <!-- Segundo grupo de datos -->
+  <div class="min-sm:row-span-2 md:px-10 space-y-2 ml-10 mt-5">
+    <div class="flex items-center">
+      <mat-icon class="profile-icons">business</mat-icon>
+      <p><strong class="ml-2">Ciudad:</strong> {{ userData.city }}</p>
+    </div>
+    <div class="flex items-center">
+      <mat-icon class="profile-icons">lens</mat-icon>
+      <p><strong class="ml-2">Código Postal:</strong> {{ userData.cp }}</p>
+    </div>
+  </div>
+</div>

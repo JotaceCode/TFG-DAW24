@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  hotel:
+    image: hotel
+    container_name: hotel
+    hostname: hotel
+    build:
+      context: ./Backend/
+      dockerfile: Hotel.Dockerfile
+    restart: always
+    expose:
+      - '3000'
+    #ports:
+    #  - '8562:3000'
+    environment:
+      - APP_CONNECTION_STRING=mongodb://localhost:27017
+      - APP_DATABASE=MongoDBHotel
+    depends_on:
+      - MongoDBHotel
+
+  security:
+    image: security
+    container_name: security
+    hostname: security
+    build:
+      context: ./Backend/
+      dockerfile: Security.Dockerfile
+    restart: always
+    expose:
+      - '3000'
+    #ports:
+    #  - '8563:3000'
+    volumes:
+      - backend_photos:/app/wwwroot/photos
+    environment:
+      - APP_CONNECTION_STRING=Data Source=localhost; Initial Catalog=Security; User Id=sa; Password=StrongPassword1!; TrustServerCertificate=true;
+    depends_on:
+      - SQLServerSecurity
+
+  gateway:
+    image: gateway
+    container_name: gateway
+    hostname: gateway
+    build:
+      context: ./Backend/
+      dockerfile: Gateway.Dockerfile
+    restart: always
+    #expose:
+    #  - '3000'
+    ports:
+      - '8561:3000'
+    volumes:
+      - backend_photos:/app/wwwroot/photos
+    depends_on:
+      - hotel
+      - security
+
+volumes:
+  backend_photos:

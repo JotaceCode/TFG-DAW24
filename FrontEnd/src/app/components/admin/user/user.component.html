@@ -1,0 +1,272 @@
+<section class="mt-14">
+  <div
+    class="font-bold text-3xl mb-2 w-4/5 mx-auto py-2 text-[#01161e] shadow-lg text-center bg-[#eff6e0] rounded"
+  >
+    <h3 class="pt-2">Empleados</h3>
+  </div>
+  <div class="mb-2 lg:w-4/5 mx-auto rounded beige">
+    <div
+      class="px-6 py-2 flex flex-col lg:flex-row justify-between items-center"
+    >
+      <mat-radio-group
+        [value]="searchRadioButtonValue"
+        (change)="onRadioButtonChange($event)"
+      >
+        <mat-radio-button value="Name" title="Nombre"
+          ><strong>Nombre</strong></mat-radio-button
+        >
+        <mat-radio-button value="Surname" title="Apellidos"
+          ><strong>Apellidos</strong></mat-radio-button
+        >
+        <mat-radio-button value="Email" title="Email"
+          ><strong>Email</strong></mat-radio-button
+        >
+        <mat-radio-button value="PhoneNumber" title="Teléfono"
+          ><strong>Teléfono</strong></mat-radio-button
+        >
+        <mat-radio-button value="City" title="Ciudad"
+          ><strong>Ciudad</strong></mat-radio-button
+        >
+      </mat-radio-group>
+      <input
+        title="Buscar..."
+        type="text"
+        class="px-2 border border-black"
+        (keyup)="userFilter($event)"
+        placeholder="Buscar..."
+      />
+    </div>
+    <div>
+      <div class="overflow-x-auto w-full">
+        <mat-table
+          [dataSource]="dataSource"
+          matSort
+          (matSortChange)="orderColumns($event)"
+          class="table"
+        >
+          <!-- Name Column -->
+          <ng-container matColumnDef="Name" class="hover:bg-gray-700">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Nombre</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              (click)="checkUser(element.id)"
+              [class.orange]="this.element.disabled === true"
+            >
+              <div
+                class="inline-flex items-center gap-2"
+                style="vertical-align: middle"
+              >
+                <mat-icon
+                  *ngIf="element.roleAdmin"
+                  title="Administrador"
+                  class="text-[#7e22ce]"
+                  style="font-size: 20px; vertical-align: middle"
+                  >admin_panel_settings</mat-icon
+                >
+                <mat-icon
+                  class="text-[#124559]"
+                  *ngIf="!element.roleAdmin"
+                  title="Usuario"
+                  style="font-size: 20px; vertical-align: middle"
+                  >person</mat-icon
+                >
+                <span style="vertical-align: middle"
+                  ><strong>{{ element.name }}</strong></span
+                >
+              </div>
+            </td>
+          </ng-container>
+
+          <!-- Surname Column -->
+          <ng-container matColumnDef="Surname">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Apellidos</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              (click)="checkUser(element.id)"
+              [class.orange]="this.element.disabled === true"
+            >
+              <strong> {{ element.surname }}</strong>
+            </td>
+          </ng-container>
+
+          <!-- Email Column -->
+          <ng-container matColumnDef="Email" class="max-md:invisible col-telf">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Email</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              (click)="checkUser(element.id)"
+              [class.orange]="this.element.disabled === true"
+            >
+              <strong> {{ element.email }}</strong>
+            </td>
+          </ng-container>
+          <div>
+            <!-- PhoneNumber Column -->
+            <ng-container matColumnDef="PhoneNumber">
+              <th
+                mat-header-cell
+                *matHeaderCellDef
+                mat-sort-header
+                [title]="getOrderingTitle()"
+              >
+                <strong class="underline">Teléfono</strong>
+              </th>
+              <td
+                mat-cell
+                *matCellDef="let element"
+                (click)="checkUser(element.id)"
+                [class.orange]="this.element.disabled === true"
+              >
+                <strong> {{ element.phoneNumber }}</strong>
+              </td>
+            </ng-container>
+          </div>
+          <!-- City Column -->
+          <div>
+            <ng-container matColumnDef="City">
+              <th
+                mat-header-cell
+                *matHeaderCellDef
+                mat-sort-header
+                [title]="getOrderingTitle()"
+              >
+                <strong class="underline">Ciudad</strong>
+              </th>
+              <td
+                mat-cell
+                *matCellDef="let element"
+                (click)="checkUser(element.id)"
+                [class.orange]="this.element.disabled === true"
+              >
+                <strong> {{ element.city }}</strong>
+              </td>
+            </ng-container>
+          </div>
+          <!-- Options Column -->
+          <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef>
+              <strong class="underline">Acciones</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.orange]="this.element.disabled === true"
+            >
+              <button
+                title="Modificar"
+                mat-icon-button
+                color="primary"
+                (click)="updateUser(element)"
+              >
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button
+                title="Eliminar"
+                *ngIf="element.id !== getUserLoggedId()"
+                mat-icon-button
+                color="warn"
+                (click)="deleteUser(element.id, element)"
+              >
+                <mat-icon>delete</mat-icon>
+              </button>
+              <button
+                title="Deshabilitar"
+                *ngIf="
+                  element.id !== getUserLoggedId() &&
+                  (element.disabled === null || element.disabled === false)
+                "
+                mat-icon-button
+                (click)="disableUser(element.id, element)"
+              >
+                <mat-icon style="color: rgb(249 115 22) !important"
+                  >person_off</mat-icon
+                >
+              </button>
+              <button
+                title="Habilitar"
+                *ngIf="
+                  element.id !== getUserLoggedId() && element.disabled === true
+                "
+                mat-icon-button
+                (click)="enableUser(element.id, element)"
+              >
+                <mat-icon style="color: #4caf50 !important">person_on</mat-icon>
+              </button>
+              <button
+                title="Mi perfil"
+                routerLink="/perfil"
+                mat-icon-button
+                *ngIf="element.id === getUserLoggedId()"
+              >
+                <mat-icon>account_circle</mat-icon>
+              </button>
+            </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </mat-table>
+      </div>
+      <!-- Paginacion -->
+      <mat-paginator
+        (page)="eventPager($event)"
+        #paginacion
+        [pageSize]="paginationRequest.pageSize"
+        [pageSizeOptions]="comboPages"
+        [length]="totalUsers"
+      ></mat-paginator>
+    </div>
+    <div class="px-6 pt-4 pb-2 grid">
+      <div class="place-self-end">
+        <button
+          title="Añadir"
+          mat-flat-button
+          class="boton-nuevo"
+          (click)="insertUser()"
+        >
+          Añadir Empleado<mat-icon>person</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="w-4/5 mx-auto bg-[#01161e] text-white rounded px-10 py-1 pt-3">
+    <p>
+      <strong>Info:</strong> Toda la información de los empleados es gestionada
+      por los administradores (excepto contraseñas, aunque pueden reiniciarse en
+      caso de pérdida).
+    </p>
+    <mat-icon
+      class="text-[#7e22ce]"
+      style="font-size: 20px; vertical-align: middle"
+      >admin_panel_settings</mat-icon
+    ><span>Administrador</span>&nbsp;&nbsp;
+    <mat-icon
+      class="text-[#124559]"
+      style="font-size: 20px; vertical-align: middle"
+      >person</mat-icon
+    ><span>Usuario</span>
+  </div>
+</section>

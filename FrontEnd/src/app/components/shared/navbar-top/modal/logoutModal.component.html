@@ -1,0 +1,19 @@
+<div class="p-3 bg-[#aec3b0] text-center">
+  <h2 mat-dialog-title>Confirmar desconexión</h2>
+  <div mat-dialog-content>¿Está seguro de que desea cerrar la sesión?</div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button (click)="onCancelClick()">
+      <mat-icon>cancel</mat-icon>Cancelar
+    </button>
+    <button
+      mat-raised-button
+      color="warn"
+      class="boton-borrar"
+      (click)="onConfirmClick()"
+      cdkFocusInitial
+    >
+      <mat-icon>logout</mat-icon>
+      Salir
+    </button>
+  </div>
+</div>

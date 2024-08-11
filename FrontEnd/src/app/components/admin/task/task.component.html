@@ -1,0 +1,399 @@
+<section class="mt-14">
+  <div
+    class="font-bold text-3xl mb-2 w-4/5 mx-auto py-2 text-[#01161e] shadow-lg text-center bg-[#eff6e0] rounded"
+  >
+    <h3 class="pt-2" *ngIf="showActiveTasks">Tareas Activas</h3>
+    <h3 class="pt-2" *ngIf="!showActiveTasks">Histórico de Tareas</h3>
+  </div>
+  <!-- TASKS TABLE-->
+  <div
+    class="sm:w-full lg:w-4/5 mx-auto rounded overflow-hidden shadow-lg beige"
+  >
+    <div *ngIf="showActiveTasks">
+      <div
+        class="px-6 py-2 flex flex-col xl:flex-row justify-between items-center"
+      >
+        <div class="flex justify-center mb-1">
+          <button
+            class="boton-mover"
+            mat-flat-button
+            color="primary"
+            (click)="toggleShowActiveTasks(false)"
+            title="Mostrar histórico"
+          >
+            <mat-icon>task</mat-icon>
+            {{
+              showActiveTasks ? "Mostrar Histórico" : "Mostrar Tareas Activas"
+            }}
+          </button>
+        </div>
+
+        <mat-radio-group
+          [value]="searchRadioButtonValue"
+          (change)="onRadioButtonChange($event)"
+        >
+          <mat-radio-button value="Status" title="Estado">
+            <strong>Estado</strong></mat-radio-button
+          >
+          <mat-radio-button value="Priority" title="Prioridad"
+            ><strong>Prioridad</strong></mat-radio-button
+          >
+          <mat-radio-button value="User.Email" title="Empleado"
+            ><strong>Empleado</strong></mat-radio-button
+          >
+          <mat-radio-button value="Room.RoomNumber" title="Habitación"
+            ><strong>Habitación</strong></mat-radio-button
+          >
+          <mat-radio-button value="Observations" title="Observaciones"
+            ><strong>Observaciones</strong></mat-radio-button
+          >
+        </mat-radio-group>
+        <input
+          type="text"
+          class="border border-black"
+          (keyup)="taskFilter($event)"
+          placeholder="Buscar..."
+          title="Buscar..."
+        />
+      </div>
+      <div>
+        <mat-table
+          [dataSource]="dataSource"
+          matSort
+          (matSortChange)="orderColumns($event)"
+          class="table w-full"
+          style="border-collapse: collapse"
+        >
+          <!-- Status Column -->
+          <ng-container matColumnDef="Status">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Estado</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.green]="this.element.status === 'Finalizada'"
+              [class.orange]="this.element.status === 'Pendiente'"
+            >
+              <strong>{{ element.status }}</strong>
+            </td>
+          </ng-container>
+
+          <!-- Priority Column -->
+          <ng-container matColumnDef="Priority" class="hover:bg-gray-700">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Prioridad</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.green]="this.element.status === 'Finalizada'"
+              [class.orange]="this.element.status === 'Pendiente'"
+              s
+            >
+              <!-- priority cases -->
+              <div [ngSwitch]="element.priority">
+                <ng-container *ngSwitchCase="'0'">
+                  <span><strong>0 (Baja)</strong></span>
+                </ng-container>
+                <ng-container *ngSwitchCase="'1'">
+                  <span><strong>1 (Normal)</strong></span>
+                </ng-container>
+                <ng-container *ngSwitchCase="'2'">
+                  <span><strong>2 (Alta)</strong></span>
+                </ng-container>
+                <ng-container *ngSwitchDefault>
+                  <span
+                    ><strong>{{ element.priority }}</strong></span
+                  >
+                </ng-container>
+              </div>
+            </td>
+          </ng-container>
+
+          <!-- User Column -->
+          <ng-container matColumnDef="User.Email">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Empleado</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.green]="this.element.status === 'Finalizada'"
+              [class.orange]="this.element.status === 'Pendiente'"
+            >
+              <strong>{{ element.user.email }}</strong>
+            </td>
+          </ng-container>
+
+          <!-- Room Column -->
+          <ng-container
+            matColumnDef="Room.RoomNumber"
+            class="max-md:invisible col-telf"
+          >
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline"> Habitación</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.green]="this.element.status === 'Finalizada'"
+              [class.orange]="this.element.status === 'Pendiente'"
+            >
+              <strong
+                >Nº {{ element.room.roomNumber }}
+                <span *ngIf="element.room.floor"
+                  >- Planta {{ element.room.floor }}</span
+                ></strong
+              >
+            </td>
+          </ng-container>
+
+          <!-- Observations Column -->
+          <ng-container matColumnDef="Observations">
+            <th
+              mat-header-cell
+              *matHeaderCellDef
+              mat-sort-header
+              [title]="getOrderingTitle()"
+            >
+              <strong class="underline">Observaciones</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.green]="this.element.status === 'Finalizada'"
+              [class.orange]="this.element.status === 'Pendiente'"
+            >
+              <strong>{{ element.observations }}</strong>
+            </td>
+          </ng-container>
+
+          <!-- Options Column -->
+          <ng-container matColumnDef="actions">
+            <th mat-header-cell *matHeaderCellDef>
+              <strong class="underline">Acciones</strong>
+            </th>
+            <td
+              mat-cell
+              *matCellDef="let element"
+              [class.green]="this.element.status === 'Finalizada'"
+              [class.orange]="this.element.status === 'Pendiente'"
+            >
+              <button
+                title="Modificar"
+                mat-icon-button
+                color="primary"
+                (click)="updateTask(element)"
+              >
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button
+                title="Eliminar"
+                mat-icon-button
+                color="warn"
+                (click)="deleteTask(element.id, element)"
+              >
+                <mat-icon>delete</mat-icon>
+              </button>
+              <button
+                title="Archivar"
+                mat-icon-button
+                (click)="moveTaskToHistory(element.id, element)"
+              >
+                <mat-icon class="text-purple-600">task</mat-icon>
+              </button>
+            </td>
+          </ng-container>
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+        </mat-table>
+
+        <!-- Paginacion -->
+        <mat-paginator
+          (page)="eventPager($event)"
+          #paginacion
+          [pageSize]="paginationRequest.pageSize"
+          [pageSizeOptions]="comboPages"
+          [length]="totalTasks"
+        ></mat-paginator>
+      </div>
+    </div>
+    <!-- TASK HISTORY TABLE COMPONENT -->
+    <app-task-history-table
+      *ngIf="!showActiveTasks"
+      (showActiveTasksChange)="toggleShowActiveTasks(true)"
+    ></app-task-history-table>
+
+    <div *ngIf="!showActiveTasks" class="px-8 pt-4 pb-2 flex justify-between">
+      <button
+        class="boton-borrar px-4 py-2"
+        mat-flat-button
+        (click)="deleteHistory()"
+        title="Vaciar histórico"
+        [disabled]="pdfTasks.length < 1"
+      >
+        Vaciar histórico<mat-icon>delete</mat-icon>
+      </button>
+
+      <button
+        class="boton-mover px-4 py-2"
+        mat-flat-button
+        (click)="downloadPDF()"
+        title="Vaciar histórico"
+        [disabled]="pdfTasks.length < 1"
+      >
+        Descargar histórico como PDF<mat-icon>download</mat-icon>
+      </button>
+
+      <button
+        class="boton-nuevo px-4 py-2"
+        mat-flat-button
+        (click)="insertTask()"
+        [disabled]="!showActiveTasks"
+      >
+        Añadir tarea<mat-icon>task</mat-icon>
+      </button>
+    </div>
+    <div class="flex justify-between px-8 pt-4 pb-2" *ngIf="showActiveTasks">
+      <button
+        class="boton-borrar px-4 py-2"
+        mat-flat-button
+        (click)="deleteAll()"
+        title="Vaciar tareas"
+        [disabled]="dataSource.data.length <= 0"
+      >
+        Vaciar tareas<mat-icon>delete</mat-icon>
+      </button>
+      <button
+        class="px-4 py-2 ml-auto"
+        color="primary"
+        mat-flat-button
+        (click)="insertTaskAuto()"
+        [disabled]="!automaticTaskControl"
+        title="Añadir automáticamente"
+      >
+        Añadir tareas automáticamente<mat-icon>task</mat-icon>
+      </button>
+      <button
+        class="boton-nuevo px-4 py-2 ml-auto"
+        mat-flat-button
+        (click)="insertTask()"
+        [disabled]="!showActiveTasks"
+        title="Añadir"
+      >
+        Añadir tarea<mat-icon>task</mat-icon>
+      </button>
+    </div>
+  </div>
+  <div
+    class="w-4/5 mx-auto bg-[#01161e] text-white rounded px-10 py-1 pt-3 mt-2"
+  >
+    <p>
+      <strong>Info: </strong>La información puede ser filtrada por distintas
+      opciones para facilitar la asignación de tareas.
+    </p>
+    <div class="flex items-center py-1">
+      <mat-icon class="text-[#4ed469]">fiber_manual_record</mat-icon> Tarea
+      &nbsp;<strong class="text-[#4ed469]">finalizada</strong
+      >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <div>
+        <span class="flex items-center"
+          ><mat-icon class="text-orange-500">fiber_manual_record</mat-icon>Tarea
+          &nbsp;<strong class="text-orange-500">pendiente</strong></span
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hidden table for download PDF -->
+<div class="table-responsive" id="pdfTable" hidden>
+  <table
+    class="table text-center items-center"
+    style="border: 1px solid #aec3b0 !important"
+  >
+    <thead>
+      <tr class="pdfTable">
+        <th scope="col" rowspan="2">Fecha</th>
+        <th scope="col" rowspan="2">Estado</th>
+        <th scope="col" rowspan="2">Prioridad</th>
+        <th scope="col" rowspan="2">Observaciones</th>
+        <th scope="col" colspan="4">Habitación</th>
+        <th scope="col" colspan="9">Empleado</th>
+      </tr>
+      <tr>
+        <!-- Room PDF -->
+        <th scope="col" class="bordeHeader">Nº Habitación</th>
+        <th scope="col" class="bordeHeader">Planta</th>
+        <th scope="col" class="bordeHeader">Tipo</th>
+        <th scope="col" class="bordeHeader">Estado</th>
+        <!-- USER PDF -->
+        <th scope="col" class="bordeHeader">Nombre</th>
+        <th scope="col" class="bordeHeader">Apellidos</th>
+        <th scope="col" class="bordeHeader">Email</th>
+        <th scope="col" class="bordeHeader">DNI</th>
+        <th scope="col" class="bordeHeader">Rol</th>
+        <th scope="col" class="bordeHeader">Teléfono</th>
+        <th scope="col" class="bordeHeader">Ciudad</th>
+        <th scope="col" class="bordeHeader">CP</th>
+        <th scope="col" class="bordeHeader">Fecha Nacimiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pdfTask of pdfTasks">
+        <!-- Task -->
+        <td>
+          {{ pdfTask.createdDate | date : "dd/MM/yyyy HH:mm a" }}
+        </td>
+        <td>{{ pdfTask.status }}</td>
+        <td [ngSwitch]="pdfTask.priority">
+          {{ pdfTask.priority }}
+          <span *ngSwitchCase="'0'">Baja</span>
+          <span *ngSwitchCase="'1'">Normal</span>
+          <span *ngSwitchCase="'2'">Alta</span>
+        </td>
+        <td>{{ pdfTask.observations }}</td>
+        <!-- Room -->
+        <td>{{ pdfTask.room.roomNumber }}</td>
+        <td>{{ pdfTask.room.floor }}</td>
+        <td>{{ pdfTask.room.type }}</td>
+        <td>{{ pdfTask.room.status }}</td>
+        <!-- USER -->
+        <td>{{ pdfTask.user.name }}</td>
+        <td>{{ pdfTask.user.surname }}</td>
+        <td>{{ pdfTask.user.email }}</td>
+        <td>{{ pdfTask.user.dni }}</td>
+        <td>
+          {{ pdfTask.user.roleAdmin ? "Administrador" : "Usuario" }}
+        </td>
+        <td>{{ pdfTask.user.phoneNumber }}</td>
+        <td>{{ pdfTask.user.city }}</td>
+        <td>{{ pdfTask.user.cp }}</td>
+        <td>
+          {{ pdfTask.user.birthDate | date : "dd/MM/yyyy" }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,195 @@
+<div class="w-full p-8 bg-[#aec3b0] rounded-lg shadow-lg">
+  <h2 class="text-center">Modificar empleado {{ data.user.email }}</h2>
+  <form [formGroup]="userForm" (ngSubmit)="updateUser(data.user.id)">
+    <div class="grid grid-cols-2 gap-4">
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input
+          formControlName="name"
+          matInput
+          name="name"
+          required
+          type="text"
+        />
+        <mat-error *ngIf="this.userForm.get('name')?.hasError('required')"
+          >Nombre requerido</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Apellidos</mat-label>
+        <input
+          formControlName="surname"
+          required
+          matInput
+          name="surname"
+          type="text"
+        />
+        <mat-error *ngIf="this.userForm.get('surname')?.hasError('required')"
+          >Apellidos requerido</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input
+          formControlName="email"
+          required
+          matInput
+          name="email"
+          type="email"
+        />
+        <mat-error *ngIf="this.userForm.get('email')?.hasError('required')"
+          >Email requerido</mat-error
+        >
+        <mat-error *ngIf="this.userForm.get('email')?.hasError('email')"
+          >Formato inválido</mat-error
+        >
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>DNI</mat-label>
+        <input formControlName="dni" required matInput name="dni" type="text" />
+        <mat-error *ngIf="this.userForm.get('dni')?.hasError('required')"
+          >DNI requerido</mat-error
+        >
+        <mat-error
+          *ngIf="
+            this.userForm.get('dni')?.hasError('invalidDni') &&
+            this.userForm.get('dni')?.value.length > 0
+          "
+          >Formato inválido</mat-error
+        >
+      </mat-form-field>
+
+      <button
+        *ngIf="data.user.id === getUserLoggedId()"
+        mat-raised-button
+        routerLink="/perfil"
+        type="button"
+        mat-dialog-close
+        class="col-span-2 space-x-2 boton-editar"
+      >
+        <mat-icon>account_circle</mat-icon>
+        Actualizar contraseña
+      </button>
+      <button
+        *ngIf="data.user.id !== getUserLoggedId()"
+        mat-raised-button
+        (click)="updateUserPasswordModal(data.user)"
+        type="button"
+        class="col-span-2 space-x-2 boton-editar"
+      >
+        <mat-icon>password</mat-icon>
+        Actualizar contraseña
+      </button>
+      <mat-radio-group
+        formControlName="roleAdmin"
+        class="flex items-center justify-center space-x-4 col-span-2"
+      >
+        <mat-label class="mr-4"><strong>Rol: </strong> </mat-label>
+        <mat-radio-button
+          [disabled]="data.user.id === getUserLoggedId()"
+          [value]="false"
+          >User</mat-radio-button
+        >
+        <mat-radio-button [value]="true">Admin</mat-radio-button>
+      </mat-radio-group>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Teléfono</mat-label>
+        <input
+          formControlName="phoneNumber"
+          matInput
+          name="phoneNumber"
+          type="text"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Fecha de nacimiento</mat-label>
+        <input
+          matInput
+          [matDatepicker]="picker"
+          formControlName="birthDate"
+          name="birthDate"
+        />
+        <mat-hint>Dia/Mes/Año</mat-hint>
+        <mat-datepicker-toggle
+          matIconSuffix
+          [for]="picker"
+        ></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Ciudad</mat-label>
+        <input formControlName="city" matInput name="city" type="text" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>CP</mat-label>
+        <input formControlName="cp" matInput name="cp" type="text" />
+      </mat-form-field>
+    </div>
+    <div class="flex justify-center">
+      <mat-dialog-actions>
+        <div class="flex items-center justify-center space-x-2">
+          <button mat-raised-button mat-dialog-close>
+            <mat-icon>cancel</mat-icon>Cancelar
+          </button>
+          <input
+            formControlName="urlImage"
+            #fileInput
+            hidden
+            type="file"
+            (change)="onFileSelected($event)"
+            accept="image/*"
+          />
+          <button
+            type="button"
+            mat-raised-button
+            class="boton-mover"
+            (click)="fileInput.click()"
+          >
+            <span *ngIf="!imageName">
+              <mat-icon style="font-size: 20px; vertical-align: middle"
+                >image</mat-icon
+              >
+              Elegir imagen</span
+            >
+            <span *ngIf="imageName">
+              <mat-icon style="font-size: 20px; vertical-align: middle"
+                >image</mat-icon
+              >
+              {{ imageName }}</span
+            >
+          </button>
+          <button
+            *ngIf="imageData"
+            mat-raised-button
+            color="warn"
+            (click)="clearImage()"
+          ><mat-icon>delete</mat-icon>
+            Quitar imagen
+          </button>
+
+          <div *ngIf="imageData">
+            <img [src]="imageData" class="w-16 h-16" />
+          </div>
+          <button
+            [disabled]="userForm.invalid"
+            type="submit"
+            class="boton-editar"
+            mat-raised-button
+            [mat-dialog-close]="true"
+          >
+            <mat-icon>edit</mat-icon>
+
+            Modificar empleado
+          </button>
+        </div>
+      </mat-dialog-actions>
+    </div>
+  </form>
+</div>

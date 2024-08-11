@@ -1,0 +1,5 @@
+# npm install for install modules, no need upload to github
+/node_modules
+
+# ng server --o cache files, no need upload to github
+.angular

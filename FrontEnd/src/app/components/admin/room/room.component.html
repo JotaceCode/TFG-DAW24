@@ -1,0 +1,160 @@
+<section class="mt-14">
+  <div
+    class="font-bold text-3xl mb-2 w-4/5 mx-auto py-2 text-[#01161e] shadow-lg text-center bg-[#eff6e0] rounded"
+  >
+    <h3 class="pt-2">Habitaciones</h3>
+  </div>
+
+  <div class="mb-2 sm:w-4/5 mx-auto rounded beige">
+    <div
+      class="px-6 py-2 flex flex-col md:flex-row justify-between items-center"
+    >
+      <mat-radio-group
+        [value]="searchRadioButtonValue"
+        (change)="onRadioButtonChange($event)"
+      >
+        <mat-radio-button value="RoomNumber" title="Nº Habitación"
+          ><strong>Nº Habitación</strong></mat-radio-button
+        >
+        <mat-radio-button value="Floor" title="Planta"
+          ><strong>Planta</strong></mat-radio-button
+        >
+        <mat-radio-button value="Type" title="Tipo"
+          ><strong>Tipo</strong></mat-radio-button
+        >
+        <mat-radio-button value="Status" title="Estado"
+          ><strong>Estado</strong></mat-radio-button
+        >
+      </mat-radio-group>
+      <input
+        type="text"
+        class="px-2 border border-black"
+        (keyup)="roomFilter($event)"
+        placeholder="Buscar..."
+        title="Buscar..."
+      />
+    </div>
+    <div class="overflow-x-auto w-full">
+      <mat-table
+        [dataSource]="dataSource"
+        (matSortChange)="orderColumns($event)"
+        matSort
+        class="table"
+      >
+        <!-- Room Number Column -->
+        <ng-container matColumnDef="RoomNumber">
+          <th
+            mat-header-cell
+            *matHeaderCellDef
+            mat-sort-header
+            [title]="getOrderingTitle()"
+          >
+            <strong class="underline"> Nº Habitación </strong>
+          </th>
+          <td mat-cell *matCellDef="let element">
+            <strong> {{ element.roomNumber }}</strong>
+          </td>
+        </ng-container>
+
+        <!-- Floor Column -->
+        <ng-container matColumnDef="Floor">
+          <th
+            mat-header-cell
+            *matHeaderCellDef
+            mat-sort-header
+            [title]="getOrderingTitle()"
+          >
+            <strong class="underline">Planta</strong>
+          </th>
+          <td mat-cell *matCellDef="let element">
+            <strong> {{ element.floor }}</strong>
+          </td>
+        </ng-container>
+
+        <!-- Type Column -->
+        <ng-container matColumnDef="Type">
+          <th
+            mat-header-cell
+            *matHeaderCellDef
+            mat-sort-header
+            [title]="getOrderingTitle()"
+          >
+            <strong class="underline">Tipo </strong>
+          </th>
+          <td mat-cell *matCellDef="let element">
+            <strong> {{ element.type }}</strong>
+          </td>
+        </ng-container>
+
+        <!-- Status Column -->
+        <ng-container matColumnDef="Status">
+          <th
+            mat-header-cell
+            *matHeaderCellDef
+            mat-sort-header
+            [title]="getOrderingTitle()"
+          >
+            <strong class="underline">Estado</strong>
+          </th>
+          <td mat-cell *matCellDef="let element">
+            <strong> {{ element.status }}</strong>
+          </td>
+        </ng-container>
+
+        <!-- Actions Column -->
+        <ng-container matColumnDef="actions">
+          <th mat-header-cell *matHeaderCellDef>
+            <strong class="underline">Acciones</strong>
+          </th>
+          <td mat-cell *matCellDef="let element">
+            <button
+              mat-icon-button
+              color="primary"
+              (click)="updateRoom(element)"
+              title="Modificar"
+            >
+              <mat-icon>edit</mat-icon>
+            </button>
+            <button
+              mat-icon-button
+              color="warn"
+              (click)="deleteRoom(element.id, element)"
+              title="Eliminar"
+            >
+              <mat-icon>delete</mat-icon>
+            </button>
+          </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      </mat-table>
+    </div>
+    <!-- Pagination -->
+    <mat-paginator
+      (page)="eventPager($event)"
+      #paginacion
+      [pageSize]="paginationRequest.pageSize"
+      [pageSizeOptions]="comboPages"
+      [length]="totalRooms"
+    ></mat-paginator>
+    <div class="px-6 pt-2 pb-2 py-2 grid">
+      <div class="place-self-end">
+        <button
+          mat-flat-button
+          class="boton-nuevo"
+          (click)="insertRoom()"
+          title="Añadir"
+        >
+          Añadir Habitación<mat-icon>bed</mat-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="w-4/5 mx-auto bg-[#01161e] text-white rounded px-10 py-1 pt-3">
+    <p>
+      <strong>Info:</strong> Desde este panel se gestiona la información
+      relevante de las habitaciones del hotel para el personal de limpieza.
+    </p>
+  </div>
+</section>

@@ -1,0 +1,406 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/RoomService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Room",
+      "UpstreamHttpMethod": [ "POST", "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RoomService/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Room/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/RoomService/pagination",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Room/pagination",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User",
+      "UpstreamHttpMethod": [ "POST", "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/getCuadranteFileName",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/getCuadranteFileName",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/photos/{photoName}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/photos/{photoName}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/uploadPhoto",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/uploadPhoto",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/deletePhoto",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/deletePhoto",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/pagination",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/pagination",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/loggedUser",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/loggedUser",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/updatePassword",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/updatePassword",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/UserService/resetPassword/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "security",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/User/resetPassword/{id}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Task",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Task",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskService/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Task/{id}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskService/pagination",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/Task/pagination",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskHistoryService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/TaskHistory",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskHistoryService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/TaskHistory",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskHistoryService/deleteHistory",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/TaskHistory/deleteHistory",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskHistoryService/pagination",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/TaskHistory/pagination",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/TaskHistoryService/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "hotel",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/TaskHistory/{id}",
+      "UpstreamHttpMethod": [ "GET", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      },
+      "RouteClaimsRequirement": {
+        "roleAdmin": true
+      }
+    }
+  ]
+}

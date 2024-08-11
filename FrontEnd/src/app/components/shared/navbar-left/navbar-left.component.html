@@ -1,0 +1,42 @@
+<!-- HOME-->
+<div title="Inicio" class="h-12 bg-white">
+  <a routerLink="inicio" class="flex w-full h-full justify-center">
+    <img
+      src="../../../../assets/source/logo.png"
+      title="Inicio"
+      class="w-8 h-8 object-contain place-self-center"
+    />
+  </a>
+</div>
+<mat-nav-list>
+  <!-- Tasks Link USER -->
+  <mat-list-item *ngIf="!isAdmin()" title="Tareas">
+    <a routerLink="mistareas">
+      <mat-icon>task</mat-icon>
+    </a>
+  </mat-list-item>
+  <!-- Tasks Link ADMIN -->
+  <mat-list-item *ngIf="isAdmin()" title="Tareas">
+    <a routerLink="tareas">
+      <mat-icon>task</mat-icon>
+    </a>
+  </mat-list-item>
+  <!-- Users Link ADMIN -->
+  <mat-list-item *ngIf="isAdmin()" title="Empleados">
+    <a routerLink="empleados">
+      <mat-icon>person</mat-icon>
+    </a>
+  </mat-list-item>
+  <!-- Rooms Link ADMIN -->
+  <mat-list-item *ngIf="isAdmin()" title="Habitaciones">
+    <a routerLink="habitaciones">
+      <mat-icon>bed</mat-icon>
+    </a>
+  </mat-list-item>
+  <!-- Calendar Link USER/ADMIN -->
+  <mat-list-item title="Calendario">
+    <a routerLink="calendario">
+      <mat-icon>calendar_month</mat-icon>
+    </a>
+  </mat-list-item>
+</mat-nav-list>

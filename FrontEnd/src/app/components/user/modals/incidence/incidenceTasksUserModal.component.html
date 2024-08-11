@@ -1,0 +1,23 @@
+<div class="p-3 bg-[#aec3b0] text-center">
+  <h2 mat-dialog-title>Agregar incidencia</h2>
+  <div mat-dialog-content>
+    <mat-form-field>
+      <mat-label>Incidencia</mat-label>
+      <textarea matInput [(ngModel)]="incidence"></textarea>
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button (click)="onCancelClick()">
+      <mat-icon>cancel</mat-icon>Cancelar
+    </button>
+    <button
+      mat-raised-button
+      color="warn"
+      (click)="onConfirmClick()"
+      cdkFocusInitial
+    >
+      <mat-icon class="icon-list-position">error</mat-icon>
+      Agregar
+    </button>
+  </div>
+</div>

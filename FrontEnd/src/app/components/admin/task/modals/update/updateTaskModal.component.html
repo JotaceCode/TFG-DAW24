@@ -1,0 +1,128 @@
+<div class="w-full p-3 bg-[#aec3b0] rounded-lg shadow-lg">
+  <h2 class="text-center">Modificar Tarea</h2>
+  <form
+    [formGroup]="taskForm"
+    (ngSubmit)="updateTask()"
+    class="modal-content p-5 pt-0"
+  >
+    <!-- User table component -->
+    <app-task-user-table
+      [selectedIdUser]="userId"
+      (selectedIdUserChange)="onSelectedIdUserChange($event)"
+    ></app-task-user-table>
+    <!-- Save the user id selected, hidden -->
+    <input
+      hidden
+      formControlName="user"
+      matInput
+      name="user"
+      type="text"
+      [value]="userId"
+    />
+    <br />
+    <!-- Room table component -->
+    <app-task-room-table
+      [data]="data.roomNumbers"
+      [selectedIdRoom]="roomId"
+      (selectedIdRoomChange)="onSelectedIdRoomChange($event)"
+    ></app-task-room-table>
+    <!-- Save the room id selected, hidden -->
+    <input
+      hidden
+      formControlName="room"
+      matInput
+      name="room"
+      type="text"
+      [value]="roomId"
+    />
+    <div class="grid grid-cols-2">
+      <br />
+      <mat-radio-group
+        class="col-span-2 mx-auto"
+        formControlName="priority"
+        name="priority"
+      >
+        <mat-label><strong>Prioridad: </strong></mat-label>
+        <mat-radio-button value="0" title="0 (Baja)"
+          ><strong>0 (Baja)</strong></mat-radio-button
+        >
+        <mat-radio-button value="1" title="1 (Normal)"
+          ><strong>1 (Normal)</strong></mat-radio-button
+        >
+        <mat-radio-button value="2" title="2 (Alta)"
+          ><strong>2 (Alta)</strong></mat-radio-button
+        >
+      </mat-radio-group>
+      <br />
+      <mat-form-field appearance="fill" class="col-span-2">
+        <mat-label>Observaciones</mat-label>
+        <textarea
+          formControlName="observations"
+          matInput
+          name="observations"
+          matTextareaAutosize
+          matAutosizeMinRows="3"
+          matAutosizeMaxRows="5"
+        ></textarea>
+      </mat-form-field>
+    </div>
+    <div class="flex items-center inline-block">
+      <mat-label *ngIf="data.task.status === 'Pendiente'"
+        ><strong
+          >Estado:
+          <span class="text-orange-500">{{ data.task.status }}</span></strong
+        >
+        <mat-icon
+          class="text-orange-500"
+          style="font-size: 20px; vertical-align: middle"
+          >fiber_manual_record</mat-icon
+        >
+      </mat-label>
+      <mat-label *ngIf="data.task.status === 'Finalizada'"
+        ><strong
+          >Estado:
+          <span class="text-green-600">{{ data.task.status }}</span></strong
+        >
+        <mat-icon
+          class="text-green-600"
+          style="font-size: 20px; vertical-align: middle"
+          >fiber_manual_record</mat-icon
+        >
+      </mat-label>
+      <button
+        (click)="updateStatus('Finalizada')"
+        mat-raised-button
+        mat-dialog-close
+        class="green"
+        *ngIf="data.task.status === 'Pendiente'"
+      >
+        Marcar como finalizada
+      </button>
+      <button
+        (click)="updateStatus('Pendiente')"
+        mat-raised-button
+        mat-dialog-close
+        class="orange"
+        *ngIf="data.task.status === 'Finalizada'"
+      >
+        Marcar como pendiente
+      </button>
+    </div>
+    <mat-dialog-actions align="end">
+      <button mat-raised-button mat-dialog-close>
+        <mat-icon>cancel</mat-icon>Cancelar
+      </button>
+
+      <button
+        [disabled]="taskForm.invalid"
+        type="submit"
+        mat-raised-button
+        [mat-dialog-close]="true"
+        class="boton-editar"
+      >
+        <mat-icon>edit</mat-icon>
+        Modificar tarea
+      </button>
+    </mat-dialog-actions>
+  </form>
+</div>

@@ -1,0 +1,63 @@
+<nav class="w-full flex justify-between items-center">
+  <!-- HOME-->
+  <div title="Inicio" class="h-12 w-14 bg-white">
+    <a routerLink="inicio" class="flex w-full h-full justify-center">
+      <img
+        src="../../../../assets/source/logo.png"
+        title="Inicio"
+        class="w-8 h-8 object-contain place-self-center"
+      />
+    </a>
+  </div>
+  <!-- Clock component -->
+  <div class="mx-auto mt-2 hidden sm:block">
+    <app-clock></app-clock>
+  </div>
+
+  <!-- Nav buttons -->
+  <div class="justify-end mt-3 mr-2">
+    <button
+      *ngIf="isAdmin()"
+      routerLink="tareas"
+      title="Tareas"
+      class="md:hidden w-10"
+    >
+      <mat-icon>task</mat-icon>
+    </button>
+    <button
+      *ngIf="!isAdmin()"
+      routerLink="mistareas"
+      title="Tareas"
+      class="md:hidden w-10"
+    >
+      <mat-icon>task</mat-icon>
+    </button>
+    <button
+      *ngIf="isAdmin()"
+      routerLink="empleados"
+      title="Empleados"
+      class="md:hidden w-10"
+    >
+      <mat-icon>person</mat-icon>
+    </button>
+    <button
+      *ngIf="isAdmin()"
+      routerLink="habitaciones"
+      title="Habitaciones"
+      class="md:hidden w-10"
+    >
+      <mat-icon>bed</mat-icon>
+    </button>
+    <button routerLink="calendario" title="Calendario" class="md:hidden w-10">
+      <mat-icon>calendar_month</mat-icon>
+    </button>
+
+    <!-- Profile and Logout Buttons -->
+    <button class="w-10" title="Mi perfil" routerLink="perfil">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <button class="w-10" title="Salir" (click)="logOut()">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </div>
+</nav>

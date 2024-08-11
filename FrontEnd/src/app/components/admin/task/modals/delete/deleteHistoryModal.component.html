@@ -1,0 +1,31 @@
+<div class="p-3 bg-[#aec3b0] text-center">
+  <h2 mat-dialog-title>Confirmar eliminación</h2>
+  <div mat-dialog-content>
+    <p>
+      ¿Está seguro de que desea eliminar todas las tareas del histórico de
+      tareas?
+    </p>
+    <p>Esta acción es irreversible y no puede deshacerse.</p>
+    <mat-form-field>
+      <input
+        matInput
+        [(ngModel)]="confirmText"
+        placeholder="Escriba CONFIRMAR"
+      />
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button (click)="onCancelClick()">
+      <mat-icon>cancel</mat-icon>Cancelar
+    </button>
+    <button
+      mat-raised-button
+      color="warn"
+      (click)="onConfirmClick()"
+      [disabled]="confirmText !== 'CONFIRMAR'"
+    >
+      <mat-icon>delete</mat-icon>
+      Eliminar histórico
+    </button>
+  </div>
+</div>

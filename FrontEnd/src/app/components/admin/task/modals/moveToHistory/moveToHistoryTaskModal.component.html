@@ -1,0 +1,20 @@
+<div class="p-3 bg-[#aec3b0] text-center">
+  <h2 mat-dialog-title>Confirmar Movimiento</h2>
+  <div mat-dialog-content>
+    ¿Está seguro de que desea archivar la tarea perteneciente a la habitación Nº
+    {{ data.task.room.roomNumber }} - Planta {{ data.task.room.floor }} asignada
+    al empleado {{ data.task.user.name }} {{ data.task.user.surname }} en el
+    histórico de tareas?
+  </div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button (click)="onCancelClick()"><mat-icon>cancel</mat-icon>Cancelar</button>
+    <button
+      mat-raised-button
+      class="boton-mover"
+      (click)="onConfirmClick()"
+      cdkFocusInitial
+    ><mat-icon>task</mat-icon>
+      Archivar
+    </button>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MOV+omhC+FfuVvn8/pRYJVOYmVJBZenQOYlOk/IG8KQ=",
+  "Source": "Services.API.Gateway",
+  "BasePath": "_content/Services.API.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

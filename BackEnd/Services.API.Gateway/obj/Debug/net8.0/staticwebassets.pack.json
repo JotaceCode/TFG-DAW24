@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\FCT_Limpieza\\BackEnd\\Services.API.Gateway\\wwwroot\\photos\\cuadrante.txt",
+      "PackagePath": "staticwebassets\\photos\\cuadrante.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Services.API.Gateway.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Services.API.Gateway.props",
+      "PackagePath": "build\\Services.API.Gateway.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Services.API.Gateway.props",
+      "PackagePath": "buildMultiTargeting\\Services.API.Gateway.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Services.API.Gateway.props",
+      "PackagePath": "buildTransitive\\Services.API.Gateway.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

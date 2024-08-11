@@ -1,0 +1,231 @@
+<div
+  class="px-6 py-2 flex flex-col xl:flex-row justify-between items-center"
+  *ngIf="showActiveTasks"
+>
+  <div class="flex justify-center mb-1">
+    <button
+      class="boton-tareas"
+      mat-flat-button
+      color="primary"
+      (click)="toggleShowActiveTasks(); emitShowActiveTasksChange()"
+      title="Mostrar Tareas Activas"
+    >
+      <mat-icon>task</mat-icon>
+      {{ showActiveTasks ? "Mostrar Tareas Activas" : "Mostrar Histórico" }}
+    </button>
+  </div>
+  <mat-radio-group
+    [value]="searchRadioButtonValue"
+    (change)="onRadioButtonChange($event)"
+  >
+    <mat-radio-button value="Status" title="Estado"
+      ><strong>Estado</strong></mat-radio-button
+    >
+    <mat-radio-button value="Priority" title="Prioridad"
+      ><strong>Prioridad</strong></mat-radio-button
+    >
+    <mat-radio-button value="User.Email" title="Empleado"
+      ><strong>Empleado</strong></mat-radio-button
+    >
+    <mat-radio-button value="Room.RoomNumber" title="Habitación"
+      ><strong>Habitación</strong></mat-radio-button
+    >
+    <mat-radio-button value="CreatedDate" title="Fecha"
+      ><strong>Fecha</strong></mat-radio-button
+    >
+  </mat-radio-group>
+  <mat-form-field *ngIf="searchRadioButtonValue === 'CreatedDate'">
+    <input
+      [value]="searchDateDefaultValue"
+      matInput
+      [matDatepicker]="picker"
+      placeholder="Fecha"
+      (dateInput)="taskFilter($event)"
+    />
+    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+    <mat-datepicker #picker></mat-datepicker>
+  </mat-form-field>
+  <input
+    *ngIf="searchRadioButtonValue !== 'CreatedDate'"
+    class="border border-black"
+    type="text"
+    (keyup)="taskFilter($event)"
+    placeholder="Buscar..."
+    title="Buscar..."
+  />
+</div>
+<div>
+  <mat-table
+    [dataSource]="dataSource"
+    matSort
+    (matSortChange)="orderColumns($event)"
+    class="table w-full"
+    style="border-collapse: collapse"
+  >
+    <!-- Status Column -->
+    <ng-container matColumnDef="Status">
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        [title]="getOrderingTitle()"
+      >
+        <strong class="underline">Estado</strong>
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [class.green]="this.element.status === 'Finalizada'"
+        [class.orange]="this.element.status === 'Pendiente'"
+      >
+        <strong>{{ element.status }}</strong>
+      </td>
+    </ng-container>
+
+    <!-- Priority Column -->
+    <ng-container matColumnDef="Priority" class="hover:bg-gray-700">
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        [title]="getOrderingTitle()"
+      >
+        <strong class="underline">Prioridad</strong>
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [class.green]="this.element.status === 'Finalizada'"
+        [class.orange]="this.element.status === 'Pendiente'"
+      >
+        <!-- priority cases -->
+        <div [ngSwitch]="element.priority">
+          <ng-container *ngSwitchCase="'0'"
+            ><span><strong>0 (Baja)</strong></span>
+          </ng-container>
+          <ng-container *ngSwitchCase="'1'">
+            <span><strong>1 (Normal)</strong></span>
+          </ng-container>
+          <ng-container *ngSwitchCase="'2'">
+            <span><strong>2 (Alta)</strong></span>
+          </ng-container>
+          <ng-container *ngSwitchDefault>
+            <span
+              ><strong>{{ element.priority }}</strong></span
+            >
+          </ng-container>
+        </div>
+      </td>
+    </ng-container>
+
+    <!-- User Column -->
+    <ng-container matColumnDef="User.Email">
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        [title]="getOrderingTitle()"
+      >
+        <strong class="underline">Empleado</strong>
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [class.green]="this.element.status === 'Finalizada'"
+        [class.orange]="this.element.status === 'Pendiente'"
+      >
+        <strong> {{ element.user.email }}</strong>
+      </td>
+    </ng-container>
+
+    <!-- Room Column -->
+    <ng-container
+      matColumnDef="Room.RoomNumber"
+      class="max-md:invisible col-telf"
+    >
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        [title]="getOrderingTitle()"
+      >
+        <strong class="underline">Habitación</strong>
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [class.green]="this.element.status === 'Finalizada'"
+        [class.orange]="this.element.status === 'Pendiente'"
+      >
+        <strong>
+          Nº {{ element.room.roomNumber }}
+          <span *ngIf="element.room.floor"
+            >- Planta {{ element.room.floor }}</span
+          ></strong
+        >
+      </td>
+    </ng-container>
+
+    <!-- createdDate Column -->
+    <ng-container matColumnDef="CreatedDate">
+      <th
+        mat-header-cell
+        *matHeaderCellDef
+        mat-sort-header
+        [title]="getOrderingTitle()"
+      >
+        <strong class="underline">Fecha</strong>
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [class.green]="this.element.status === 'Finalizada'"
+        [class.orange]="this.element.status === 'Pendiente'"
+      >
+        <strong>{{ element.createdDate | date : "dd/M/yyyy - h:mm a" }}</strong>
+      </td>
+    </ng-container>
+
+    <!-- Options Column -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>
+        <strong class="underline">Acciones</strong>
+      </th>
+      <td
+        mat-cell
+        *matCellDef="let element"
+        [class.green]="this.element.status === 'Finalizada'"
+        [class.orange]="this.element.status === 'Pendiente'"
+      >
+        <button
+          title="Eliminar"
+          mat-icon-button
+          color="warn"
+          (click)="deleteTask(element.id, element)"
+        >
+          <mat-icon>delete</mat-icon>
+        </button>
+        <button
+          title="Observaciones"
+          mat-icon-button
+          color="primary"
+          (click)="showObservations(element)"
+          *ngIf="element.observations"
+        >
+          <mat-icon>list_alt</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </mat-table>
+
+  <!-- Paginacion -->
+  <mat-paginator
+    (page)="eventPager($event)"
+    #paginacion
+    [pageSize]="paginationRequest.pageSize"
+    [pageSizeOptions]="comboPages"
+    [length]="totalTasks"
+  ></mat-paginator>
+</div>

@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #aec3b0;
+}
+input {
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.boton-nuevo {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+.boton-editar {
+  background-color: #124559 !important;
+  color: white !important;
+}
+.boton-borrar {
+  background-color: #e54646 !important;
+  color: white !important;
+}
+.boton-mover {
+  background-color: #7e22ce !important;
+  color: white !important;
+}
+.boton-nuevo[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.boton-editar[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.boton-borrar[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.boton-mover[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.orange{
+  background: orange !important;
+}
+.green{
+  background: #4ed469!important;
+}
+
+.beige {
+  background-color: #eff6e0;
+}
+tr:hover {
+  background-color: #eff6e0;
+  cursor: pointer;
+}
+td,
+th {
+  cursor: default;
+  vertical-align: middle;
+}
+
+img{
+  border-radius: 10px;
+}

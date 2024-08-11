@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Desktop\\FCT_Limpieza\\BackEnd\\Services.API.Hotel\\wwwroot\\photos\\cuadrante.txt",
+      "PackagePath": "staticwebassets\\photos\\cuadrante.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Services.API.Hotel.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Services.API.Hotel.props",
+      "PackagePath": "build\\Services.API.Hotel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Services.API.Hotel.props",
+      "PackagePath": "buildMultiTargeting\\Services.API.Hotel.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Services.API.Hotel.props",
+      "PackagePath": "buildTransitive\\Services.API.Hotel.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

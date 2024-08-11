@@ -1,0 +1,189 @@
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.exe
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.deps.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.runtimeconfig.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.AssemblyReference.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfoInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfo.cs
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Gateway.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Gateway.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Gateway.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\scopedcss\bundle\Services.API.Gateway.styles.css
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.B1E89E73.Up2Date
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\refint\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.genruntimeconfig.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\obj\Debug\net8.0\ref\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\ocelot.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Gateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\ocelot.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.exe
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.deps.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.runtimeconfig.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Gateway.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Gateway.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Gateway.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\scopedcss\bundle\Services.API.Gateway.styles.css
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.B1E89E73.Up2Date
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\refint\Services.API.Gateway.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\ref\Services.API.Gateway.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\ocelot.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.exe
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.deps.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.runtimeconfig.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.AssemblyReference.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfoInputs.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfo.cs
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.sourcelink.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Gateway.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Gateway.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Gateway.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\scopedcss\bundle\Services.API.Gateway.styles.css
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.B1E89E73.Up2Date
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\refint\Services.API.Gateway.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.genruntimeconfig.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\ref\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\appsettings.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\ocelot.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.exe
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.deps.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.runtimeconfig.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.AssemblyReference.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfoInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.AssemblyInfo.cs
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.csproj.CoreCompileInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.sourcelink.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Gateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Gateway.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Gateway.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Gateway.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\scopedcss\bundle\Services.API.Gateway.styles.css
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.B1E89E73.Up2Date
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\refint\Services.API.Gateway.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.genruntimeconfig.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\ref\Services.API.Gateway.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\obj\Debug\net8.0\Services.API.Gateway.sourcelink.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.staticwebassets.runtime.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Gateway\bin\Debug\net8.0\Services.API.Gateway.staticwebassets.runtime.json

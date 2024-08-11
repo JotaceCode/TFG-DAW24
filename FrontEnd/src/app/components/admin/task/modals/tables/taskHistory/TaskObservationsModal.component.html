@@ -1,0 +1,13 @@
+<div class="p-3 bg-[#aec3b0] text-center">
+  <h2 mat-dialog-title>Observaciones</h2>
+  <div mat-dialog-content>
+    <p>
+      {{ data.task.observations }}
+    </p>
+  </div>
+  <div mat-dialog-actions class="dialog-actions">
+    <button mat-raised-button (click)="onCloseClick()" cdkFocusInitial>
+      <mat-icon>cancel</mat-icon> Cerrar
+    </button>
+  </div>
+</div>

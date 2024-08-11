@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "H4WvU172c8QfYLziTHohUc9YpzCBIsxorjyQwsT/Oxw=",
+  "Source": "Services.API.Hotel",
+  "BasePath": "_content/Services.API.Hotel",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Services.API.Hotel\\wwwroot",
+      "Source": "Services.API.Hotel",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\FCT_Limpieza\\BackEnd\\Services.API.Hotel\\wwwroot\\",
+      "BasePath": "_content/Services.API.Hotel",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ADMIN\\Desktop\\FCT_Limpieza\\BackEnd\\Services.API.Hotel\\wwwroot\\photos\\cuadrante.txt",
+      "SourceId": "Services.API.Hotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\Desktop\\FCT_Limpieza\\BackEnd\\Services.API.Hotel\\wwwroot\\",
+      "BasePath": "_content/Services.API.Hotel",
+      "RelativePath": "photos/cuadrante.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\cuadrante.txt"
+    }
+  ]
+}

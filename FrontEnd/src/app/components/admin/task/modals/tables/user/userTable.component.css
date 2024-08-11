@@ -1,0 +1,34 @@
+/* Used in the coponent */
+.highlighted-row {
+  background-color: lightblue;
+  cursor: default;
+}
+
+td {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  #col-telf {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .col-telf {
+    display: none !important;
+  }
+}
+
+tr:hover {
+  background-color: #eff6e0;
+  cursor: pointer;
+}
+th {
+  cursor: default;
+  background: white !important;
+}
+
+.orange-row {
+  background-color: orange;
+  cursor: default;
+}

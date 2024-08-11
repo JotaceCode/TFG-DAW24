@@ -1,0 +1,36 @@
+.yellow {
+  border: 3px solid rgb(251, 114, 64) !important;
+  background-color: rgb(251, 114, 64) !important;
+  color: white;
+}
+.todo-color {
+  background: #ffa500 !important;
+  border: 3px solid rgb(249, 219, 165);
+  color: rgb(112, 1, 1);
+}
+.ready-color {
+  background: #4ed469 !important;
+  border: 3px solid rgb(226, 252, 187);
+  color: rgb(57, 58, 57);
+}
+
+.icon-list-position {
+  bottom: 4px;
+}
+
+mat-icon {
+  font-size: 27px !important;
+  overflow: visible;
+}
+
+h3 {
+  text-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+
+button {
+  font-size: 0.8em;
+}

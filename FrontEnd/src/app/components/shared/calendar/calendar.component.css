@@ -1,0 +1,28 @@
+h3 {
+  text-shadow: 0.25em 0.25em 0.5em rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+  letter-spacing: 0.25em;
+  text-align: center;
+}
+
+@media (max-width: 940px) {
+  h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+  }
+}
+
+.green-button {
+  background-color: #4caf50 !important;
+  color: white !important;
+  margin-left: 2%;
+}
+
+.green-button:hover {
+  background-color: #45a049 !important;
+}
+
+.green-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

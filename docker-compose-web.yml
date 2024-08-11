@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    image: web
+    container_name: web
+    hostname: web
+    build:
+      context: ./Frontend/
+      dockerfile: Web.Dockerfile
+    ports:
+      - "4200:4200"
+    restart: always

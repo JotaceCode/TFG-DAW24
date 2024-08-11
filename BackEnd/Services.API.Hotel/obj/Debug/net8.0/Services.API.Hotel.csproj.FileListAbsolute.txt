@@ -1,0 +1,205 @@
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.exe
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.deps.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.runtimeconfig.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Hotel.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Hotel.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Hotel.props
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\scopedcss\bundle\Services.API.Hotel.styles.css
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\refint\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\ref\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.exe
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.deps.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.runtimeconfig.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\DnsClient.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Snappier.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.AssemblyReference.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfoInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfo.cs
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.sourcelink.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Hotel.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Hotel.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Hotel.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\scopedcss\bundle\Services.API.Hotel.styles.css
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.53349027.Up2Date
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\refint\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.genruntimeconfig.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\ref\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\DnsClient.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Snappier.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.53349027.Up2Date
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.exe
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.deps.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.runtimeconfig.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\DnsClient.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Snappier.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Hotel.props
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Hotel.props
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Hotel.props
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\scopedcss\bundle\Services.API.Hotel.styles.css
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.53349027.Up2Date
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\refint\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\BackEnd\Services.API.Hotel\obj\Debug\net8.0\ref\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.exe
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.deps.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.runtimeconfig.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\DnsClient.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Snappier.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.AssemblyReference.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfoInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfo.cs
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Hotel.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Hotel.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Hotel.props
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\scopedcss\bundle\Services.API.Hotel.styles.css
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.53349027.Up2Date
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\refint\Services.API.Hotel.dll
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.genruntimeconfig.cache
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\BackEnd\Services.API.Hotel\obj\Debug\net8.0\ref\Services.API.Hotel.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\appsettings.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.exe
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.deps.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.runtimeconfig.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\DnsClient.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Driver.Core.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\MongoDB.Libmongocrypt.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Snappier.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.AssemblyReference.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfoInputs.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.AssemblyInfo.cs
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.csproj.CoreCompileInputs.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.sourcelink.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.Services.API.Hotel.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.build.Services.API.Hotel.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Services.API.Hotel.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Services.API.Hotel.props
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\scopedcss\bundle\Services.API.Hotel.styles.css
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.53349027.Up2Date
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\refint\Services.API.Hotel.dll
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.pdb
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.genruntimeconfig.cache
+C:\Users\josve\Desktop\TFG\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\ref\Services.API.Hotel.dll
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\obj\Debug\net8.0\Services.API.Hotel.sourcelink.json
+C:\Users\david.mendoza\OneDrive - GABITEL INGENIEROS\Escritorio\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.staticwebassets.runtime.json
+C:\Users\ADMIN\Desktop\FCT_Limpieza\BackEnd\Services.API.Hotel\bin\Debug\net8.0\Services.API.Hotel.staticwebassets.runtime.json

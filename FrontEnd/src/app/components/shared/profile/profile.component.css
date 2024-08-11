@@ -1,0 +1,20 @@
+.imagen {
+  object-fit: contain;
+  width: 150px;
+}
+.position {
+  position: relative;
+  top: 5px;
+}
+.profile-icons {
+  font-size: 24px;
+  color: #1e40af;
+  position: relative;
+  top: -7px;
+}
+.color {
+  background: #01161e;
+}
+
+/* background-color: #598392;
+                                  */

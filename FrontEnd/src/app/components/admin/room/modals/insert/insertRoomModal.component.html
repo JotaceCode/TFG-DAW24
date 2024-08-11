@@ -1,0 +1,70 @@
+<div class="w-full p-8 bg-[#aec3b0] rounded-lg shadow-lg">
+  <h2 class="text-center">Añadir Habitación</h2>
+  <form [formGroup]="roomForm" (ngSubmit)="insertRoom()" class="space-y-6">
+    <div class="grid grid-cols-2 gap-6">
+      <!-- Campo de RoomNumber -->
+      <div class="mb-4">
+        <mat-form-field class="w-full">
+          <mat-label>Nº Habitación</mat-label>
+          <input
+            matInput
+            formControlName="roomNumber"
+            required
+            type="text"
+            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          />
+          <mat-error>Nº Habitación es requerido</mat-error>
+        </mat-form-field>
+      </div>
+      <!-- Campo de Floor -->
+      <div class="mb-4">
+        <mat-form-field class="w-full">
+          <mat-label>Planta</mat-label>
+          <input matInput formControlName="floor" type="text" required />
+          <mat-error>Planta es requerida</mat-error>
+        </mat-form-field>
+      </div>
+      <!-- Campo de Type -->
+      <div class="mb-4">
+        <mat-form-field class="w-full">
+          <mat-label>Tipo</mat-label>
+          <mat-select formControlName="type">
+            <mat-option
+              *ngFor="let option of typeOptions"
+              [value]="option.value"
+              >{{ option.label }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <!-- Campo de Status -->
+      <div class="mb-4">
+        <mat-form-field class="w-full">
+          <mat-label>Estado</mat-label>
+          <mat-select formControlName="status">
+            <mat-option
+              *ngFor="let option of statusOptions"
+              [value]="option.value"
+              >{{ option.label }}</mat-option
+            >
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+
+    <div class="flex justify-end space-x-4 mt-4">
+      <button mat-raised-button class="cancelar" mat-dialog-close>
+        <mat-icon>cancel</mat-icon>Cancelar
+      </button>
+      <button
+        [disabled]="roomForm.invalid"
+        type="submit"
+        class="boton-nuevo"
+        mat-raised-button
+        [mat-dialog-close]="true"
+      ><mat-icon>bed</mat-icon>
+        Añadir habitación
+      </button>
+    </div>
+  </form>
+</div>

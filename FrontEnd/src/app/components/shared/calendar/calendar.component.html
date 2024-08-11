@@ -1,0 +1,78 @@
+<!-- Title -->
+<div class="mt-20 mb-10">
+  <h3>Cuadrante de trabajo</h3>
+</div>
+
+<!-- Calendar Image -->
+<ng-container *ngIf="cuadranteFileName">
+  <img [src]="getPhoto()" class="imagen mx-auto mb-3 w-200 h-200" />
+</ng-container>
+
+<!-- Calendar Form ADMIN -->
+<form
+  *ngIf="isAdmin()"
+  [formGroup]="userForm"
+  (ngSubmit)="uploadImage()"
+  enctype="multipart/form-data"
+>
+  <div class="flex justify-center items-center mt-10 mb-10">
+    <!-- Hidden image input -->
+    <input
+      formControlName="urlImage"
+      #fileInput
+      hidden
+      type="file"
+      (change)="onFileSelected($event)"
+      accept="image/*"
+    />
+
+    <!-- Upload image button -->
+    <button
+      type="button"
+      mat-raised-button
+      class="boton-mover"
+      (click)="fileInput.click()"
+    >
+      <mat-icon style="font-size: 20px; vertical-align: middle">image</mat-icon>
+      <span *ngIf="!imageName" title="Cargar imagen"> Cargar imagen</span>
+      <span *ngIf="imageName" title="{{ imageName }}">{{ imageName }}</span>
+    </button>
+
+    <!-- Quit image uploaded -->
+    <button
+      *ngIf="imageData"
+      mat-raised-button
+      color="warn"
+      (click)="clearImage()"
+      style="margin-left: 2% !important"
+      title="Quitar imagen"
+    >
+      <mat-icon style="font-size: 20px; vertical-align: middle">delete</mat-icon
+      >Quitar imagen
+    </button>
+
+    <!-- Update image button -->
+    <button
+      [disabled]="this.imageData === null && this.cuadranteFileName === ''"
+      type="submit"
+      mat-raised-button
+      class="green-button"
+      title="Actualizar imagen"
+    >
+      <mat-icon style="font-size: 20px; vertical-align: middle"
+        >calendar_month</mat-icon
+      >Actualizar cuadrante
+    </button>
+  </div>
+
+  <!-- Calendar form image preview -->
+  <p *ngIf="imageData">
+    <img [src]="imageData" class="imagen mx-auto mb-3 w-200 h-200" />
+  </p>
+</form>
+
+<!-- Logo -->
+<img
+  src="../../../assets/source/logo.png"
+  class="h-8 absolute bottom-4 right-6"
+/>

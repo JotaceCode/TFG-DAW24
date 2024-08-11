@@ -1,0 +1,23 @@
+.imagen {
+  object-fit: contain;
+  width: 150px;
+}
+.position {
+  position: relative;
+  top: 5px;
+}
+.profile-icons {
+  font-size: 24px;
+  color: #1e40af;
+  position: relative;
+  top: -7px;
+}
+.color {
+  background: #01161e;
+}
+.rounded-full-purple:hover {
+  background-color: #7c3aed !important;
+}
+.rounded-full-green:hover {
+  background-color: #2ecc71 !important;
+}

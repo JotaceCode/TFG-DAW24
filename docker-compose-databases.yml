@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  MongoDBHotel:
+    image: mongo
+    container_name: MongoDBHotel
+    ports:
+      - '27017:27017'
+    restart: always
+
+  SQLServerSecurity:
+    image: mcr.microsoft.com/mssql/server
+    container_name: SQLServerSecurity
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: StrongPassword1!
+    ports:
+      - '1433:1433'
+    restart: always
+
